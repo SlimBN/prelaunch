@@ -1,0 +1,47 @@
+//BASIC COLORS
+$main-color:		red;
+$header-background-color:	#ffffff;
+$logo-color: #636D63;
+
+$buttons-color:		yellowgreen;
+
+
+
+$container-color:	#FAFAFA;
+
+
+
+//SHADOWS
+
+@mixin box-shadow {
+	background-color: $container-color;
+	background: #f6f5ed;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+
+	border-radius: 3px;
+}
+
+@mixin in-box-shadow {
+	background-color: $container-color;
+	background: #f6f5ed;
+	box-shadow: inset 0 -3px 2px rgba(0,0,0,0.2);
+}
+
+
+//BUTTONS
+
+@mixin button-design {
+	background-color: $buttons-color;
+
+	border-radius: 3px;
+	border: 0;
+
+	font: 1.5em;
+
+	padding: 5px 25px;
+
+	text-align: center;
+	text-transform: uppercase;
+}
+
+//BOX STYLES
